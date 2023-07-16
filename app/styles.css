@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    grid-template-rows: repeat(50, 1fr);
+    gap: 1px;
+}
+
+.cell-data {
+    position: fixed;
+    right: 0px;
+    top: 10px;
+    width: 15%;
+    height: 98vh;
+    z-index: 999;
+    background-color: white;
+    font-size: 8px;
+}
+
+.cell {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+}
